@@ -17,7 +17,8 @@ Je construis mes projets pour mieux comprendre comment intégrer l'IA au quotidi
 ### 🛠 Domaines d'expertise & Parcours
 
 *   **Infrastructure, Sécurité & Datacenter (10 ans) :**
-    *   5 ans d'expertise technique terrain suivis de 5 ans en déploiement IT/Infrastructure.
+    *   Production Serveurs (5 ans) : Expertise en conception et assemblage de serveurs au sein de la chaîne de production industrielle. Une immersion totale dans le hardware qui m'a permis de comprendre le fonctionnement intime du matériel.
+    *   Déploiement Datacenter - Infra/Réseau (5 ans) : Déploiement d'infrastructures IT critiques en environnement Datacenter. Maîtrise des déploiements complexes, de la haute disponibilité et des exigences de sécurité physique/logique.
     *   Expérience approfondie en environnements critiques (type OVH) : gestion de salles ultra-sécurisées, respect des normes **ISO** et exploitation de solutions **PCC** (Private Cloud Computing).
     *   Je conçois des architectures en ayant toujours en tête les contraintes réelles de latence, de sécurité physique et de haute disponibilité.
 
