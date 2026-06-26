@@ -32,7 +32,7 @@ Je construis mes projets pour mieux comprendre comment intégrer l'IA au quotidi
 
 ---
 
-## 📂 Projets en cours
+## 📂 Ce que j'utilise au quotidien (transversal)
 
 Laboratoire perso autour de l’**IA appliquée** : je conçois des architectures multi-agents, des pipelines documentaires et des applis complètes — en local, avec contrôle humain sur les étapes sensibles.
 
