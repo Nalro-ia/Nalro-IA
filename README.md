@@ -32,12 +32,29 @@ Je construis mes projets pour mieux comprendre comment intégrer l'IA au quotidi
 
 ---
 
-### 📂 Projets en cours
+## 📂 Projets en cours
 
-*   **JARVIS :** Assistant personnel orchestrant des modèles locaux et cloud avec une gestion fine de la vie privée.
-*   **Générateur d'Ebook :** Pipeline d'automatisation complet pour la création de contenu cohérent.
-*   **Hermetix.ia :** Système multi-agents avec mémoire vectorielle pour l'analyse de profil.
-*   **Outil de Rapport d'activité :** Application web 100% client-side optimisant la saisie et le reporting technique.
+Laboratoire perso autour de l’**IA appliquée** : je conçois des architectures multi-agents, des pipelines documentaires et des applis complètes — en local, avec contrôle humain sur les étapes sensibles.
+
+**LLM & routage intelligent** — **Mistral API** (corporate, relances, synthèses), **Ollama** (inférence locale : Mistral, Llama, Qwen, Phi…), **Groq** / **Gemini** / **OpenRouter** selon les besoins ; routage par phase (cloud vs souverain), retry sur rate-limit, fallback template si API absente.
+
+**Multi-agents & rôles métier** — chaînes d’agents spécialisés (Analyste, Architecte, R&D, Marketing, Compliance, Produit, QA…) ; orchestration séquentielle **Chemin B** (00→10) ; **~24 agents** sur Projet X (EventBus, départements, filiales code/design) ; **22 personas** éditoriaux + **46 templates** sur Aether ; **6 profils documentaires** + pipelines multi-étapes sur Hermetix.
+
+**RAG & mémoire vectorielle** — **ChromaDB** (collections cloisonées par profil / agent / tenant), embeddings **Ollama** (`nomic-embed-text`) et **sentence-transformers** (`all-MiniLM-L6-v2`) ; chunking adaptatif, rappel par similarité, tests d’isolation ; analyse de docs sensibles **sans raisonnement cloud** quand le mode souverain est actif.
+
+**Recherche & enrichissement contexte** — **Tavily** (veille marché / corporate), **SerpAPI** (recherche contenu) ; briefs enrichis avant génération de livrables structurés.
+
+**Pipelines de production logicielle** — brief PDG → livrables corporate (Markdown) → **QA consultant** (scoring, blockers, intégrité) → annexes techniques (`spec.json`, **OpenAPI**, ERD, backlog) → **MVP FastAPI / Next.js** généré fichier par fichier depuis le CdC ; détection de profil produit (facturation vs marketplace) pour aligner spec et architecture.
+
+**Pipelines contenu long** — idéation chat (Ollama) → plan / TOC → rédaction multi-agents → correction → illustrations (**diffusers** / LoRA) → export **EPUB** (Pandoc) ; édition chirurgicale, jobs avec checkpoints et reprise sur erreur.
+
+**Automatisation & temps réel** — **Celery / Redis**, **asyncio** + EventBus, webhooks **n8n**, intégration **Obsidian** (capitalisation veille) ; **SSE** pour logs live des pipelines ; télémétrie cross-process (Studio / Admin).
+
+**Interfaces & pilotage** — cockpits **Next.js** (Kanban PDG, dialogue Manager, streaming logs, bureau 3D), **Streamlit** (launchpads agents, monitoring GPU), apps **Electron** (desktop souverain, IPC sandboxé) ; pont API **FastAPI** ↔ front React.
+
+**Qualité, conformité & sécurité** — validation compileall post-build, tests pytest (LLM mockés, isolation Chroma, templates) ; conformité **RGPD** / facturation **FR** (SIRET, TVA, mentions légales) ; **PathJail**, secrets hors git, **JWT**, rate limiting, mode **privacy-first** et **zéro cloud** quand le métier l’exige.
+
+**Hors LLM** — modélisation statistique (Poisson, Dixon-Coles, Elo) pour l’analyse sportive ; l’IA est un levier parmi d’autres, selon le besoin.
 
 ---
 
